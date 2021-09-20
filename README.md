@@ -7,7 +7,7 @@ Movie Recommendation System is of **three** types :-
 * **Collaborative:** The recommendation system recommends movies which are rated highly by the similar users. It maintains a database of many users’ ratings of a variety of items.
 * **Hybrid Approach:** In this, we attempt to hybridize collaborative filtering and content-based recommendation. Item similarity measure used in content-based recommendation is learned from a collaborative social network of users.
 
-## Methodology:
+## Methodology
 * I have downloaded the movie dataset from Kaggle. This dataset has information like director’s name, actor’s name, number of likes and dislikes by the users, genre of the movie, IMDB rating, year of release and duration of movie.
 * I have another dataset that has information of 2017 movies but in json format. I have used ast (Abstract Syntax Trees) library to evaluate a string containing a python dictionary.
 * After pre-processing of all datasets, I finally append them to make the single dataset i.e., main_data.csv.
@@ -25,7 +25,7 @@ Movie Recommendation System is of **three** types :-
   The user can then press the back button to search more movies and get recommendations.</li>
 </ul>
 
-## Input/Output Screenshots:
+## Input/Output Screenshots
 <p>
   The homepage that is visible to the user on visiting the website is as follows:
 </p>
